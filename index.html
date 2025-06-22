@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Renaud Mariana | Backend engineer</title>
+      <style>
+         body,input,select,textarea,table { font-family: arial; font-size: 13px; color: #333; line-height: 1.4em; }
+         body { text-align: center; margin: 0; padding: 0; margin-left: 1em; margin-right: 1em; }
+         #main { width: 900px; margin-left: auto; margin-right: auto; text-align: left; padding-bottom: 1em; color: #33333; }
+         input,textarea { background: rgb(245,245,245); border: rgb(200,200,200) 1px solid; padding-left: 3px; padding-right: 3px; }
+         h1,h2,h3,ul,dl,p { margin: 0.75em 0; padding: 0; }
+         h1,h2,h3 { padding: 0; font-family: "trebuchet ms", arial; color: #333; }
+         h1 { font-size: 24px; }
+         h1 a, h1 a:visited { text-decoration: none; }
+         h2 { text-align: center; font-size: 20px; }
+         dl,ul { border-left: #666 1px solid; padding-left: 1em; margin-left: 0.5em; }
+         ul { border-left-width: 0px; }
+         dt { font-weight: bold; margin-bottom: 0.2em; font-size: 14px; }
+         dd { margin-left: 0px; margin-bottom: 1em; }
+         a { color: #333; text-decoration: none; border-bottom: #333 1px dotted; }
+         .small_margin {margin: 0.10em 0}
+         a:visited { color: #333; }
+         a.none, a.none:visited { border-width: 0px; }
+         .icon { float: left; padding-right: 5px; }
+         ul.news b, dl dt { font-family: "trebuchet ms", arial; font-size: 14px; }
+         .umenu { border-bottom: #666 1px solid; position: relative; margin: 0.75em 0; height: 18px; }
+         .umenu a, .umenu a:visited { font-weight: bold; font-family: "trebuchet ms", arial; font-size: 14px; padding: 0em 0.75em; border-width: 0px;  text-decoration: none; background: #666; color: #fff; margin-right: 0.5em; height: 18px; line-height: 18px; float: left; }
+         .umenu a.home, a.home:visited { background: #666; }
+         .umenu a.active, .umenu a.active:visited { background: #1284DA; }
+         pre { background: #f5f5f5; padding: 0.5em 1em; border: #ccc 1px solid; width: auto; }
+         .umenu-right { position: absolute; top: 0px; right: 0px; }
+         pre, code { font-size: 12px; font-family: Consolas, courier new; }
+         .skillref {vertical-align:top; width:30%;text-align:right; padding-right: 15px;}
+         .skillbody {vertical-align:top; width:70%;text-align:left;color: #4a4a4a;}
+         .skillexper {vertical-align:top; width:70%;text-align:left;font-size: 1em;color: #4a4aaa;}
+         .lazy-load,.lazy-loaded {
+         -webkit-transition:opacity 0.3s;
+         -moz-transition:opacity 0.3s;
+         -o-transition:opacity 0.3s;
+         transition:opacity 0.3s;
+         opacity:0
+         }
+         .lazy-loaded {
+         opacity:1
+         }
+         .container {
+         display: flex; 
+         width: 300px
+         }
+         .side {
+         flex: 1; 
+         padding: 5px;
+         }
+         .side-content-center {
+         display: flex; 
+         align-items: top;
+         }
+      </style>
+   </head>
+   <body>
+      <!--'"</title></head>-->
+      <div id="main">
+         <div class="umenu">
+            <a class="home" href="https://github.com/bougueil/cv/index.html">CV Renaud Mariana, Backend engineer</a>
+         </div>
+         <center>
+            <table width="70%" cellspacing="0" cellpadding="7">
+               <tbody>
+                  <tr>
+                     <td width="54%" valign="top"><b><font size="4">Renaud MARIANA</font>
+                        <br><a href="mailto:rmariana@gmail.com">rmariana@gmail.com</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/renaudmariana"><img src="logos/linkedin.png" height="20"></a>
+                        &ndash; <a href="https://github.com/bougueil"><img src="logos/github.svg" height="20"></a>   
+                        &ndash; <a href="https://github.com/bougueil/cv/cv.pdf"><img src="logos/web.jpg" height="20"></a>
+                        <br>
+                        <br></b>
+                     </td>
+                     <td style="vertical-align: top; width: 46%;">
+                        <div align="right"><b>France</b>
+                        </div>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <table width="65%" cellspacing="0" cellpadding="7" border="0">
+               <tbody>
+                  <tr>
+                     <td style="vertical-align: top; width: 19%;"><b>Objective:</b></td>
+                     <td style="vertical-align: top; width: 81%;"><b>
+                        With more than 15 years experience starting designing middlewares
+                        for smartcards to large scale systems, I'm keen to exploit my knowledge
+                        further in building, testing, operate concurrent, energy efficient systems.</b>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </center>
+         <p><br></p>
+         <h2>WORK EXPERIENCE</h2>
+         <p></p>
+         <center>
+            <!--  WORK_EXPERIENCE -->
+            <table width="100%" cellspacing="0" cellpadding="7" border="0">
+               <tbody>
+                  <tr>
+                     <!-- aws docker -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/pipivet.png" alt="" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Santevet | Online Bookings</b></p>
+                                    <p class="small_margin"><i>France - remote</i> 🇫🇷</p>
+                                    <p class="small_margin">23 - till present</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
+                        <ul>
+                           <li> Reliability: enforce software robustness of Santevet Online Booking;</li>
+                           <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in our dependencies, fix wrong linux settings, aws instances size, etc...) to achieve a better reliability;</li>
+                           <li> Observability: add metrics / monitoring with prometheus / promQL / grafana;</li>
+                           <li> Stripe: add a card payment method to Santevet products, migrate our stripe api;</li>
+                           <li> work on implementing a garbage collector for our CQRS data;</li>
+                           <li> Solving front bugs; </li>
+                        </ul>
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Github</p>
+                        <ul class="text-sm list-disc pl-4 space-y-1">
+                           <li>
+                              Commanded (CQRS/ES): fix an 
+                              <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">
+                              OOM bug
+                              </a>
+                              present for years in the commanded dependency.
+                           </li>
+                           <li>
+                              Prometheus 
+                              <a href="https://github.com/bougueil/telemetry_metrics_prometheus_core" class="hover:text-zinc-700 underline">
+                              high resolution metric 
+                              </a>
+                              : create a small memory footprint prometheus 
+                              counter able to track millions of different counters, used intensively 
+                              by our analytics.
+                           </li>
+                        </ul>
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Environment</p>
+                        <ul class="text-sm pl-4 space-y-1">
+                           <li>
+                              AWS - Postgres - Phoenix - CQRS/ES - EventStore - 
+                              Commanded - ElasticSearch - Stripe API - promQL - Broadway - Rust
+                           </li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!-- elixir Kubernetes -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/motorola.jpeg" alt="motorola" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Motorola Solutions</b></p>
+                                    <p class="small_margin"><i>Glostrup, Denmark</i> 🇩🇰</p>
+                                    <p class="small_margin">21 - 22</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                        <ul>
+                           <li>Devops for a cloud based telecom product that connects <a href="https://en.wikipedia.org/wiki/Astro_(Motorola)">Land Mobile Radio systems</a> over the internet;</li>
+                           <li>Reliable software programming - devops (kubernetes);</li>
+                           <li>
+                              Software: write new kubernetes microservices (service-level agreement, ..) and deployed them in all regions;
+                              <div>the role included tasks like writing / running the deployment pipelines, the CI/CD integration, templates, helm chart, monitoring, logging;</div>
+                           </li>
+                           <li> SRE tasks : implement a SLA measurement microservice, on-calls, running post-mortem, improve reliability; </li>
+                        </ul>
+                        <p>Environment</p>
+                        <ul>
+                           <li>
+                              Kubernetes - Helm - Docker - Elixir - Elk - Azure 
+                              Pipelines - Telemetry - PagerDuty - Prometheus - Continuous Integration -
+                              Rabbitmq - Grafana - Redis - Phoenix - GraphQL.
+                           </li>
+                        </ul>
+                        </li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!--  Erlang OTP Kuantic  -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/kuantic.jpeg" alt="kuantic" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Kuantic | Lead</b></p>
+                                    <p class="small_margin"><i>Sofia-Antipolis, France</i></p>
+                                    <p class="small_margin">18 - 21</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                        <ul>
+                           <li>Distributed fleet management - backend devops;</li>
+                           <li> Responsibilities: technical interface for Stellantis (customer #1) </li>
+                           <li> Development process: full refactoring of our existing stack, modernizing the erlang development process and
+                              deployments, add Elixir to our backend;
+                           </li>
+                           <li> Reliability: improve the reliability and extensibility of the stack with message queue robustness;</li>
+                           <li> Big-data: inject our vehicles traffic in elixir pipelines for data analysis (MapReduce, SQL backend) and third-party data export pipelines;</li>
+                           <li> Tooling: add tools like Elastic Search and Elixir Dashboards; </li>
+                           <li> Troubleshoot some issues; </a></li>
+                           <li> Performance: improve overall performance with some of my open-source projects (Github)
+                           </li>
+                           <li> Side project: develop and maintain a SaaS based on Phoenix / LiveView;</li>
+                        </ul>
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Github</p>
+                        <ul class="text-sm list-disc pl-4 space-y-1">
+                           <li>
+                              A
+                              <a href="https://github.com/bougueil/erlang-redi" class="hover:text-zinc-700 underline">local key-value</a>
+                              cache
+                           </li>
+                           <li>
+                              <a href="https://github.com/bougueil/georedi" class="hover:text-zinc-700 underline">A nif cache</a>
+                              for openstreetmap
+                           </li>
+                        </ul>
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Environment</p>
+                        <ul class="text-sm pl-4 space-y-1">
+                           <li>
+                              NoSQL · MapReduce · Erlang · Distributed Systems ·
+                              RabbitMQ · Broadway · Elixir · SQL · Docker · Kubernetes · Phoenix · 
+                              Elastic Search
+                           </li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!--  Erlang OTP Online  -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/Online SAS.jpeg" alt="Online SAS" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Online SAS | R&D</b><p>
+                                    <p class="small_margin"><i>Paris, France</i><p>
+                                    <p class="small_margin">13 - 17<p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                        <ul>
+                           <li>Distributed cloud storage - R&D - Devops </li>
+                           <li>Architecture: define the basis for a fault tolerant storage (e.g. where nodes may crash);</li>
+                           <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while his storage is currently in use
+                              <br><em>topics: </em> live release upgrade, app profiling, riak LRU cache, blocks dependency graph, users volume live relocation, riak node crash recovery, data flow performance analysis, webmachine rest api;
+                           </li>
+                           <li>Implement a fraud detection system based on
+                              <b>emergent machine learning / AI</b>
+                              technologies.<br>Made the technical decisions (scikit versus legacy), build the features and python workflow (SQLAlchemy, Rest API);
+                              <p class="small_margin">This AI fraud detection is used in production and is fully automated.
+                              <br><em>topics: </em>
+                              scikit-learn, python, SQLAlchemy, postgresql</p>
+                           <li>Online SAS san servers as <a href="http://emqtt.io/">IOT</a> (POC) for live snapshots and statistics data collection
+                              <p class="small_margin"><em>topics: </em> qemu-nbd, iot;</p>
+                           </li>
+                           <li> <a href="http://http//www.erlang.se/euc/05/0930Remond.pdf">erlang distributed testing</a> of aws s3 storage backend
+                              <p class="small_margin"><em>topics: </em> basho_bench, tsung;</p>
+                           </li>
+                        </ul>
+                        <p>Github</p>
+                        <ul>
+                           <li>a <a href="https://github.com/bougueil/jop_ex">spatio-temporal</a> logger</li>
+                        </ul>
+                        <p>Environment</p>
+                        <ul>
+                           <li>
+                              Scikit-Learn · PostgreSQL · NoSQL · Storage Area 
+                              Network (SAN) · Machine Learning · Erlang · Python - SQLAlchemy - Distributed Systems · 
+                              Quickcheck · Docker · Qemu · Linux Kernel
+                           </li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!--  Erlang OTP Meetic  -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/meetic.jpeg" alt="meetic" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Meetic, +500 people</b></p>
+                                    <p class="small_margin"><i>Paris, France</i></p>
+                                    <p class="small_margin">10 - 13</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <p class="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                        <ul>
+                           <li>Distributed chat system - main backend developer;</li>
+                           <li> maintainer of the messaging stack (Erlang/<a href="https://en.wikipedia.org/wiki/Ejabberd">Ejabberd</a> +200K simultaneous users);</li>
+                           <li>architect and code new requirements for the Meetic chat system;</li>
+                           <li>adding the js xmpp protocol (bosh) extension to the backend;</li>
+                           <li>
+                              package, benchmark, experiment new ideas in erlang;
+                              <ul>
+                                 <li>develop a jabberd roster (contact) cloud storage (Riak);</li>
+                                 <li>develop a game framework as a cluster extension for Ejabberd to supports simultaneously ten of thousands of human interactions stored in Riak;</li>
+                                 <li>a realtime 3D supertracker to monitor fraudulent chat messages traffic;</li>
+                                 <li>benchmark RabbitMQ for messages logging;</li>
+                              </ul>
+                           <li>side project: rewrite in erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), this was my first project in Erlang;
+                           <li>
+                              side project: open-source a real-time extension for erlang, allowing to schedule hard real-time messages with the C libasound library (NIF) illustrated with two <a href="https://github.com/synrc/n2o"> n2o</a> projects:
+                              <ul>
+                                 <li>an erlang multi players midi sequencer;</li>
+                                 <li>an interactive physics simulator.</li>
+                              </ul>
+                        </ul>
+                        <p>Github</p>
+                        <ul>
+                           <li>a <a href="https://github.com/bougueil/hwclock">real-time extension</a> for erlang, allowing to schedule hard real-time messages (C libasound library, NIF)</li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!--  Adentis  -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/adentis.jpeg" alt="adentis" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>Consultant</p>
+                                    <p class="small_margin">embedded software</b></p>
+                                    <p class="small_margin"><i>Paris, France</i></p>
+                                    <p class="small_margin">02 - 10</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     <td class="skillbody">
+                        <ul>
+                           <li>
+                              <b>Embedded programming - Philips / Sagem mobiles</b>
+                              <ul>
+                                 <li>based on the 18Crypt profile, architect of the NXP mobileTV CAS feature (conditional access); this multi sites project involved people from the Netherlands, India and Ireland (S3); </li>
+                                 <li>Feature leader of Puma phone media manager, specify &amp; code the real-time requirements (apollo, js);</li>
+                                 <li>develop a new video player automaton in C for Sagem Mobile; </li>
+                                 <li>
+                                    <div class="symbolic">build a host based verification system tool to ensure the middleware correctness, this tool uses logic programming techniques on a host to drive the tests on the embedded system;</div>
+                                 </li>
+                                 <li>
+                                    <div class="symbolic">android devices: build a verification tool to test low level Android java hooks (thread, java fields / methods, state machines)</div>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <ul>
+                           <li>
+                              <b>Embedded programming - Philips <a href="https://en.wikipedia.org/wiki/Set-top_box">STB</a></b>
+                              <ul>
+                                 <li>add multi-threading (<a href="http://en.wikipedia.org/wiki/Conditional_access">EMM/ECM</a> and Tuner) for the Philips STB DLI (Device Layer Interface); develop a porting layer for PVR services based on ST40 crypto security; </li>
+                                 <li>as a field engineer at BYTEL for the BBOX IPTV Product, investigates Technicolor stb middleware;</li>
+                                 <li>
+                                    <div class="symbolic">rewrite in Erlang my massively parallel C++ coroutines simulator for a biological processus (based on Cox Renewal Theory statistics model).
+                                    </div>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <ul>
+                           <li>
+                              <b>DVB-H Mobile TV - Orange</b>
+                              <ul>
+                                 <li>participates to the development of next generation SIM &amp; KDA conditional access for Orange DVB-H mobiles;</li>
+                                 <!--a href="http://www.mobinaute.com/mobinaute/article.php?id=20051017171517"><img src="Renaud_Mariana_files/mobinaute2.jpeg" border="0" height="134" width="250"></a-->
+                                 <li>
+                                    <div class="symbolic">semi-formal testing of the sim software using logic programming techniques;</div>
+                                 </li>
+                                 <li>customize <a href="http://videolan.org">VLC</a> to decode the rtp h264 ismacryp stream;</li>
+                              </ul>
+                           </li>
+                           <li>
+                              <b>Project leader (2 patents) - Viaccess mobile drm system</b>
+                              <ul>
+                                 <li>architecture of a poc : server - DVB-H mobile - card , mp4 encryption schemes, licence packaging;
+                                 </li>
+                                 <li>participate to the development of some parts of the project : sim, oma v2 mp4 packager, symbian software;
+                                 </li>
+                                 <li>manage the relationships with major smart card suppliers, video software vendors and third party software companies.</li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <!--  Transac Smart Cards  -->
+                     <td class="skillref">
+                        <div>
+                           <div class="container">
+                              <!--div class="side">
+                                 <img src="logos/cp8.png" alt="cp8 technologies" style="width: 30%">
+                                 </div-->
+                              <div class="side side-content-end">
+                                 <div>
+                                    <p class="small_margin"><b>CP8 Transac</b></p>
+                                    <p class="small_margin"><i>Louveciennes, France</i></p>
+                                    <p class="small_margin">July 97 - June 02</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </td>
+                     <td class="skillbody">
+                        <ul>
+                           <li>
+                              <b>Project leader of <a href="http://www.inria.fr/">Inria</a> javacard (3 patents including 2 US)</b>
+                              <ul>
+                                 <li>did the coordination between INRIA, the mask and the CP8 R&amp;D teams. This project included a virtual machine simulator along other tools like secure loader or bytecode optimization programs and benchmarks suite software;</li>
+                                 <li>R&amp;D: lot of javabytecode optimizations;</li>
+                                 <li>replace old proprietary VB tools with the http interface access (one patent) for smartcards;</li>
+                                 <li>technical consultancy for a French bank (Caisse d'Epargne, B0' application); </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <b>Secure protocols for e-commerce, carte bleue</b>
+                              <ul>
+                                 <li>port of the french banking protocol (B0') in javacard; </li>
+                                 <li>add multi-threading for the SimToolkit (3 patents filled); </li>
+                                 <li>proof of concept of a sms-based E-purse transaction system ( Proton smartcard and server); </li>
+                                 <li>
+                                    <div class="symbolic">open-source the prolog <a href="https://ludovicrousseau.blogspot.com/2010/06/pcsc-sample-in-prolog.html">PC/SC interface</a>, used to run semi formal tests in logic programming.</div>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </center>
+         <h2>EDUCATION</h2>
+         <!-- EDUCATION  -->
+         <center>
+            <table width="70%" cellspacing="0" cellpadding="5" border="0">
+               <tbody>
+                  <tr>
+                     <td class="skillref">
+                        <p class="small_margin"><b>Groupe Ecoles Centrales</b></p>
+                        <p class="small_margin"><i>Centrale M&#233;diterran&#233;e, France</i></p>
+                     </td>
+                     <td class="skillbody">
+                        <ul>
+                           <li>Graduated in Computer Engineering <br>Minor: Industrial IT and embedded systems</li>
+                           <li>Competitive classes preparing to the best engineering schools<br> ("Les grandes Ecoles")</li>
+                        </ul>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </center>
+         <br>
+         <h2>Computer Skills</h2>
+         <!-- COMPUTER SKILLS  -->
+         <center>
+            <table width="70%" cellspacing="1" cellpadding="0" border="0">
+               <tbody>
+                  <tr>
+                     <td class="skillref"> Systems :</td>
+                     <td class="skillexper"> kubernetes / helm / docker, azure pipelines, low latency Erlang/OTP, elixir ecosystem, phoenix, tailwind-css, github actions, riak (nosql), linux kernel (bloc storage), graphQL, sqlite, postgresql, SQLAlchemy, tsung, redis, C++ Coroutines.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Observability - Prediction :</td>
+                     <td class="skillexper"> PromQL - Grafana - Scikit-Learn - High resolution metrics counters.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Programming languages :</td>
+                     <td class="skillexper"> erlang / elixir, C/C++, Python, JavaScript prototype, java-bytecode, SQL, ...</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Methodology :</td>
+                     <td class="skillexper"> jira, git, github, CI/CD, OTP, Rational Unified Process (RUP, UML), Microsoft Project.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Protocols :</td>
+                     <td class="skillexper"> nbd, aws, xmpp, iptv, TR-069, mpeg-4 streaming (RFC 3984), ISMACryp 1.0, Etsi-Tetra.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Embedded :</td>
+                     <td class="skillexper"> Linux, Nucleus, RTKI, VME, JavaCard, Android.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Smart Cards :</td>
+                     <td class="skillexper"> EMV, SIM Card, B0' Banking Application, E-Purse, OpenPlatform.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </center>
+         <br>
+         <h2>Projects</h2>
+         <!-- COMPUTER SKILLS  -->
+         <center>
+            <table width="70%" cellspacing="1" cellpadding="0" border="0">
+               <tbody>
+                  <tr>
+                     <td class="skillref"> Prometheus : </td>
+                     <td class="skillbody"> 
+                        Create a small memory footprint
+                        <a href="https://github.com/bougueil/telemetry_metrics_prometheus_core" class="hover:text-zinc-700 underline">
+                        telemetry_metrics_prometheus_core
+                        </a>
+                        counter able to track millions of different counters.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Superls : </td>
+                     <td class="skillbody"> A multi volumes, files tokenizer, indexer and <a href="https://github.com/bougueil/superls" class="hover:text-zinc-700 underline">search engine</a>.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Caching systems : </td>
+                     <td class="skillbody"> Small libraries on top of a NOSQL database.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Spatio-temporal logger : </td>
+                     <td class="skillbody"> A tiny library to debug concurrency in distributed systems, both in time and space.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Hardware clock : </td>
+                     <td class="skillbody"> ALSA hardware based clock (NIF) for real-time processing.</td>
+                  </tr>
+                  <tr>
+                     <td class="skillref"> Ejabberd Game framework :</td>
+                     <td class="skillbody">Framework for multi players games on top of Riak and Ejabberd.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </center>
+      </div>
+   </body>
+</html>

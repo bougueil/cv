@@ -23,7 +23,7 @@
          .icon { float: left; padding-right: 5px; }
          ul.news b, dl dt { font-family: "trebuchet ms", arial; font-size: 14px; }
          .umenu { border-bottom: #666 1px solid; position: relative; margin: 0.75em 0; height: 18px; }
-         .umenu a, .umenu a:visited { font-weight: bold; font-family: "trebuchet ms", arial; font-size: 14px; padding: 0em 0.75em; border-width: 0px;  text-decoration: none; background: #666; color: #fff; margin-right: 0.5em; height: 18px; line-height: 18px; float: left; }
+         .umenu a, .umenu a:visited { font-weight: bold; font-family: "trebuchet ms", arial; font-size: 16px; padding: 0em 0.75em; border-width: 0px;  text-decoration: none; background: #666; color: #fff; margin-right: 0.5em; height: 18px; line-height: 18px; float: left; }
          .umenu a.home, a.home:visited { background: #666; }
          .umenu a.active, .umenu a.active:visited { background: #1284DA; }
          pre { background: #f5f5f5; padding: 0.5em 1em; border: #ccc 1px solid; width: auto; }
@@ -50,35 +50,28 @@
       <!--'"</title></head>-->
       <div id="main">
          <div class="umenu">
-            <a class="home" href="https://raw.githubusercontent.com/bougueil/cv/refs/heads/main/CV_mariana_backend.pdf">CV Renaud Mariana - backend engineer</a>
+            <a class="home" href="https://raw.githubusercontent.com/bougueil/cv/refs/heads/main/CV_mariana_backend.pdf">CV Renaud MARIANA - backend engineer</a>
          </div>
          <center>
-            <table width="70%" cellspacing="0" cellpadding="7">
+           <p><br></p>
+            <table width="70%" cellspacing="0" cellpadding="7" border="0">
                <tbody>
                   <tr>
-                     <td width="54%" valign="top"><b><p class="small_margin"><font size="4">Renaud MARIANA</font></p>
+                     <td style="vertical-align: center; width: 33%;">
+			<img src="logos/avatar.png" alt="" style="width: 66%" />
                         <p class="small_margin"><a href="mailto:rmariana@gmail.com">rmariana@gmail.com</a></p>
                         <p class="small_margin">
                         <a href="https://www.linkedin.com/in/renaudmariana"><img src="logos/linkedin.png" height="20"></a>
                         &ensp; <a href="https://github.com/bougueil"><img src="logos/github.svg" height="20"></a>
                         &ensp; <a href="https://raw.githubusercontent.com/bougueil/cv/refs/heads/main/CV_mariana_backend.pdf"><img src="logos/web.jpg" height="20"></a></p>
-                        <br></b>
                      </td>
-                     <td style="vertical-align: top; width: 46%;">
-                        <div align="right"><b>France</b>
-                        </div>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            <table width="65%" cellspacing="0" cellpadding="7" border="0">
-               <tbody>
-                  <tr>
-                     <td style="vertical-align: top; width: 19%;"><b>Objective:</b></td>
-                     <td style="vertical-align: top; width: 81%;"><b>
+                     <td style="vertical-align: top; width: 66%;"><b>
+                        <p>Objective:<p>
+                           <p>
                         With more than 15 years experience starting designing middlewares
                         for smartcards to large scale systems, I'm keen to exploit my knowledge
-                        further in building, testing, operate concurrent, energy efficient systems.</b>
+                        further in building, testing, operate concurrent, energy efficient systems.</p>
+                        </b>
                      </td>
                   </tr>
                </tbody>
@@ -112,11 +105,11 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Reliability: enforce software robustness of Santevet Online Bookings;</li>
+                           <li> Reliability: enforce software robustness of our online Bookings SaaS;</li>
                            <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in commanded dependency, fix wrong linux settings, aws instances size to increase overall reliability;</li>
                            <li> Observability: add metrics / monitoring with prometheus / promQL / grafana;</li>
                            <li> Stripe: add a card payment method to Santevet products, migrate our stripe api;</li>
-                           <li> work on implementing a garbage collector for our CQRS data;</li>
+                           <li> work on implementing a garbage collector for CQRS data;</li>
                            <li> Solving front bugs; </li>
                         </ul>
                         <p class="font-semibold text-sm text-gray-700">Github</p>
@@ -203,7 +196,7 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Fleet management - Technical interface for Stellantis (customer #1); </li>
+                           <li> Fleet Management SaaS - Technical interface for Stellantis (customer #1); </li>
                            <li> Development process: full refactoring of the backend stack, modernizing the erlang development process and
                               deployments, adding Elixir to our backend;</li>
                            <li> Reliability: improve the reliability and extensibility of the stack with for example, MQ;</li>
@@ -257,7 +250,7 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li>Distributed cloud storage - R&D - Devops </li>
+                           <li>Distributed cloud Storage - R&D - Devops </li>
                            <li>Architecture: define the basis for a fault tolerant storage (e.g. where nodes may crash);</li>
                            <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while his storage is currently in use
                               <br><em>topics: </em> live release upgrade, app profiling, riak LRU cache, blocks dependency graph, users volume live relocation, riak node crash recovery, data flow performance analysis, webmachine rest api;
@@ -483,7 +476,7 @@
                <tbody>
                   <tr>
                      <td class="skillref"> Systems :</td>
-                     <td class="skillbody"> kubernetes / docker, azure pipelines CI/CD, low latency Erlang/OTP, elixir ecosystem, phoenix, tailwind-css, github actions, riak (nosql), linux kernel (bloc storage), graphQL, sqlite, postgresql, SQLAlchemy, tsung, redis, C++ Coroutines.</td>
+                     <td class="skillbody"> SaaS, kubernetes / docker, azure pipelines CI/CD, low latency Erlang/OTP, elixir ecosystem, phoenix, tailwind-css, github actions, riak (nosql), linux kernel (bloc storage), graphQL, sqlite, postgresql, SQLAlchemy, tsung, redis, C++ Coroutines.</td>
                   </tr>
                   <tr>
                      <td class="skillref"> Observability - Prediction :</td>

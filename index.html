@@ -68,7 +68,7 @@
                         &ensp; <a href="https://github.com/bougueil/cv/raw/main/CV_mariana_backend.pdf"><img src="logos/web.jpg" height="20"></a></p>
                      </td>
                      <td style="vertical-align: top; width: 66%;"><b>
-                        With more than 10 years experience programming SaaS applications and storage systems , I'm keen to exploit my knowledge further in building, testing, operate concurrent, energy efficient, scalable SaaS systems.</p>
+                        With over 15 years of experience in programming SaaS applications and storage systems, I'm keen to exploit my knowledge further in building, testing, operate concurrent, energy efficient, scalable SaaS systems.</p>
                         </b>
                      </td>
                   </tr>
@@ -103,12 +103,20 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Reliability: enforce software robustness of our online Bookings SaaS;</li>
-                           <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in commanded dependency, fix wrong linux settings, aws instances size to increase overall reliability;</li>
-                           <li> Observability: add metrics / monitoring with prometheus / promQL / grafana;</li>
-                           <li> Stripe: add a card payment method to Santevet products, migrate our stripe api;</li>
-                           <li> work on implementing a garbage collector for CQRS data;</li>
-                           <li> Solving front bugs; </li>
+                           <li> Reliability: enforce software robustness of the Online Bookings SaaS :
+                              <ul>
+                                 <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in commanded dependency</li>
+                                 <li>fix aws instances size, wrong linux settings</li>
+                                 <li>Solving some front bugs</li>
+                              </ul></li>
+                           <li> Bring Observability :
+                              <ul>
+                                 <li>add high resolution metrics</li>
+                                 <li>add monitoring with Prometheus / PromQL</li>
+                                    <li>build salient Grafana dashboards</li>
+                              </ul></li>
+                           <li> Stripe: add a card payment method to Santevet products, migrate our stripe api</li>
+                           <li> Implement a garbage collector for CQRS data</li>
                         </ul>
                         <p class="font-semibold text-sm text-gray-700">Github</p>
                         <ul class="text-sm list-disc pl-4 space-y-1">
@@ -120,14 +128,14 @@
                            <li>
                               Prometheus 
                               <a href="https://github.com/bougueil/telemetry_metrics_prometheus_core" class="hover:text-zinc-700 underline">
-                              high resolution metrics</a> : create a small memory footprint prometheus counter able to track millions of different counters, used intensively by our analytics.
+                              high resolution metrics</a> : create a small memory footprint prometheus counter able to track different activities for all users, used intensively by our analytics
                            </li>
                         </ul>
                         <p class="font-semibold text-sm text-gray-700">Environment</p>
                         <ul class="text-sm pl-4 space-y-1">
                            <li>
                               AWS - Postgres - Phoenix - CQRS/ES - EventStore - 
-                              Commanded - ElasticSearch - Stripe API - promQL - Broadway - Rust - Oban
+                              Commanded - ElasticSearch - Stripe API - PromQL - Broadway - Rust
                            </li>
                         </ul>
                      </td>
@@ -154,12 +162,12 @@
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
                            <li>Devops for a cloud based telecom product that connects <a href="https://en.wikipedia.org/wiki/Astro_(Motorola)">Land Mobile Radio systems</a> over the internet;</li>
-                           <li>Reliable software programming - devops (kubernetes);</li>
+                           <li>Reliable software programming - kubernetes devops</li>
                            <li>
-                              Software: write new kubernetes microservices (service-level requirement, ..) and deployed them in all regions;
-                              <div>The role included tasks like writing / running the deployment pipelines, the CI/CD integration, templates, helm chart, monitoring, logging;</div>
+                              Software: write new kubernetes microservices (service-level requirement, ..), <b>associated tests</b> and deployed the services in all regions;
+                              <div>The role included tasks like writing / running the deployment pipelines, the CI/CD integration, templates, helm chart, monitoring, logging and observability</div>
                            </li>
-                           <li> SRE tasks : implement a SLR measurement microservice, join on-call rotation, run post-mortem, improve reliability; </li>
+                           <li> SRE tasks : implement a SLR measurement microservice, join on-call rotation, run post-mortem, improve reliability</li>
                         </ul>
                         <p>Environment</p>
                         <ul>
@@ -194,16 +202,20 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Fleet Management SaaS - Technical interface for Stellantis (customer #1); </li>
-                           <li> Development process: full refactoring of the backend stack, modernizing the erlang development process and
-                              deployments, adding Elixir to our backend;</li>
-                           <li> Reliability: improve the reliability and extensibility of the stack with for example, MQ;</li>
-                           <li> Big-data: inject our vehicles traffic in elixir pipelines for data analysis (MapReduce, SQL backend), third-party export pipelines;</li>
-                           <li> Tooling: add tools like Elastic Search and Elixir Dashboards; </li>
-                           <li> Troubleshoot some issues; </a></li>
-                           <li> Performance: improve overall performance with some caching;
+                           <li> Fleet Management SaaS - Technical interface for Stellantis</li>
+                           <li> Architectural tasks:
+                              <ul>
+                                 <li>modernizing the development and deployment process</li>
+                                 <li>backend code refactoring</li>
+                                 <li><b>turns our service into a Data Broker (concepts + software)</b></li>
+                              </ul>
                            </li>
-                           <li> Side project: develop and maintain a SaaS based on Phoenix / LiveView;</li>
+                           <li> Reliability: improve the reliability and extensibility of the stack with for example, MQ</li>
+                           <li> Big-data: Transform the business model of fleet trafic into a data broker: MapReduce pipelines, configurable customers queues, third-party export pipelines</li>
+                           <li> Tooling: add tools like Elastic Search and Elixir Dashboards</li>
+                           <li> Troubleshoot some issues </a></li>
+                           <li> Performance: improve overall performance with some caching</li>
+                           <li> Side project: develop and maintain a SaaS based on Phoenix / LiveView</li>
                         </ul>
                         <p class="font-semibold text-sm text-gray-700">Github</p>
                         <ul class="text-sm list-disc pl-4 space-y-1">
@@ -236,7 +248,7 @@
                                  </div-->
                               <div class="side side-content-end">
                                  <div>
-                                    <p class="small_margin"><b>Online SAS | R&D</b><p>
+                                    <p class="small_margin"><b>Scaleway | R&D</b><p>
                                     <p class="small_margin"><i>Paris, France</i><p>
                                     <p class="small_margin">13 - 17<p>
                                  </div>
@@ -247,22 +259,24 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li>Distributed cloud Storage - R&D - Devops </li>
-                           <li>Architecture: define the basis for a fault tolerant storage (e.g. where commodity hardware may crash);</li>
-                           <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while his storage is currently in use
-                              <br><em>topics: </em> live release upgrade, app profiling, riak LRU cache, blocks dependency graph, users volume live relocation, riak node crash recovery, data flow performance analysis, commodity computing, webmachine rest api;
-                           </li>
-                           <li>Implement a fraud detection system based on
-                              <b>emergent machine learning / AI</b>
-                              technologies.<br>Made the technical decisions (scikit versus legacy), build the features and python workflow (SQLAlchemy, Rest API);
-                              <p class="small_margin">This AI fraud detection is used in production and is fully automated.
-                              <br><em>topics: </em>
-                              scikit-learn, python, SQLAlchemy, postgresql</p>
+                           <li>Distributed Cloud Storage - R&D - Devops </li>
+                           <ul>
+                              <li>from scaleway requirements, define the distributed and fault tolerant architecture</li>
+                              <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while his/her storage is currently in use</li>
+                              <li><em> live release upgrade, app profiling, riak LRU cache, blocks dependency graph, users volume live relocation, riak node crash recovery, data flow performance analysis, commodity computing, webmachine rest api</em></li>
+                           </ul></li>
+                           <li><b>AI fraud detection system</b>
+                              <ul>
+                                 <li>in charge of the fraud decision engine design</li>
+                                 <li> build the features and python workflow (SQLAlchemy, Rest API)</li>
+                                 <li><p class="small_margin">The AI fraud detection is used in production and is fully automated for the support team</li>
+                                 <li><em>scikit-learn, python, SQLAlchemy, postgresql</em></li>
+                              </ul>
                            <li>Online SAS san servers as <a href="http://emqtt.io/">IOT</a> (POC) for live snapshots and statistics data collection
-                              <p class="small_margin"><em>topics: </em> qemu-nbd, iot;</p>
+                              <p class="small_margin"><em>topics: </em> qemu-nbd, iot</p>
                            </li>
-                           <li> <a href="http://http//www.erlang.se/euc/05/0930Remond.pdf">erlang distributed testing</a> of aws s3 storage backend
-                              <p class="small_margin"><em>topics: </em> basho_bench, tsung;</p>
+                           <li> <a href="http://http//www.erlang.se/euc/05/0930Remond.pdf">Erlang distributed testing</a> of aws s3 storage backend
+                              <p class="small_margin"><em>topics: </em> basho_bench, tsung</p>
                            </li>
                         </ul>
                         <p>Github</p>
@@ -301,20 +315,20 @@
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
                            <li>Distributed chat system - main backend developer;</li>
-                           <li> maintainer of the messaging stack (Erlang/<a href="https://en.wikipedia.org/wiki/Ejabberd">Ejabberd</a> +200K simultaneous users);</li>
-                           <li>architect and code new requirements for the Meetic chat system;</li>
-                           <li>adding the js xmpp protocol (bosh) extension to the backend;</li>
+                           <li>Maintainer of the messaging stack (Erlang/<a href="https://en.wikipedia.org/wiki/Ejabberd">Ejabberd</a> +200K simultaneous users);</li>
+                           <li>Architect and code new requirements for the Meetic chat system;</li>
+                           <li>Add the xmpp protocol bosh extension to the backend;</li>
                            <li>
-                              package, benchmark, experiment new ideas in erlang;
+                              Package, benchmark, experiment new ideas in erlang;
                               <ul>
                                  <li>develop a jabberd roster (contact) cloud storage (Riak);</li>
                                  <li>develop a game framework as a cluster extension for Ejabberd to support simultaneously ten of thousands of human interactions stored in Riak;</li>
                                  <li>a realtime 3D supertracker to monitor fraudulent chat messages traffic;</li>
                                  <li>benchmark RabbitMQ for messages logging;</li>
                               </ul>
-                           <li>side project: rewrite in Erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), my first project in Erlang <img src="logos/icons8-red-heart-48.png"  style="vertical-align: bottom" height="16">;
+                           <li>Side project: rewrite in Erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), my first project in Erlang <img src="logos/icons8-red-heart-48.png"  style="vertical-align: bottom" height="16">;
                            <li>
-                              side projects: open-source a real-time extension for erlang, allowing to schedule hard real-time messages, illustrated with two <a href="https://github.com/synrc/n2o"> n2o</a> projects:
+                              Side projects: open-source a real-time extension for erlang, allowing to schedule hard real-time messages, illustrated with two <a href="https://github.com/synrc/n2o"> n2o</a> projects:
                               <ul>
                                  <li>an erlang multi players midi sequencer;</li>
                                  <li>an interactive physics simulator.</li>
@@ -350,7 +364,7 @@
                               <b>Embedded programming - Philips / Sagem mobiles</b>
                               <ul>
                                  <li>based on the 18Crypt profile, architect of the NXP mobileTV CAS feature (conditional access); this multi sites project involved people from the Netherlands, India and Ireland (S3); </li>
-                                 <li>Feature leader of Puma phone media manager, specify &amp; code the real-time requirements (apollo, js);</li>
+                                 <li>feature leader of Puma phone media manager, specify &amp; code the real-time requirements (apollo, js);</li>
                                  <li>develop a new video player automaton in C for Sagem Mobile; </li>
                                  <li>
                                     <div class="symbolic">build a host based verification system tool to ensure the middleware correctness, this tool uses logic programming techniques on a host to drive the tests on the embedded system;</div>

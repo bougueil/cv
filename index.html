@@ -103,20 +103,20 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Devops – enforce software robustness of the Online Bookings
+                           <li> Devops – enforce software robustness of the Phoenix Online Bookings
                               <ul>
-                                 <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in commanded dependency</li>
+                                 <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in the commanded dependency</li>
                                  <li>fix aws instances size, wrong linux settings</li>
                                  <li>Solving some front bugs</li>
                               </ul></li>
                            <li> <b>Bring Observability</b> :
                               <ul>
-                                 <li>add high resolution metrics (per user)</li>
+                                 <li>add high resolution metrics (user metrics)</li>
                                  <li>add monitoring with Prometheus / PromQL</li>
                                  <li>build salient Grafana dashboards</li>
                               </ul></li>
                            <li> Stripe: add a card payment method to Santevet products, migrate our stripe api</li>
-                           <li> Implement a garbage collector for CQRS data</li>
+                           <li> Implement a garbage collector for CQRS SQL data</li>
                         </ul>
                         <p class="font-semibold text-sm text-gray-700">Github</p>
                         <ul class="text-sm list-disc pl-4 space-y-1">
@@ -167,7 +167,7 @@
                               Software: write new kubernetes microservices (service-level requirement, ..), <b>associated tests</b> and deployed the services in all regions;
                               <div>The role included tasks like writing / running the deployment pipelines, the CI/CD integration, templates, helm chart, monitoring, logging and observability</div>
                            </li>
-                           <li> SRE tasks : implement a SLR measurement microservice, join on-call rotation, run post-mortem, improve reliability</li>
+                           <li> SRE tasks : implement <b>a SLA measurement</b> microservice, join on-call rotation, run post-mortem, improve reliability</li>
                         </ul>
                         <p>Environment</p>
                         <ul>
@@ -207,7 +207,7 @@
                               <ul>
                                  <li>modernizing the development and deployment process</li>
                                  <li>backend code refactoring</li>
-                                 <li><b>turns the fleet management into a Data Broker (concepts + software)</b></li>
+                                 <li><b>reshape the fleet management into a more general Data Broker</b> (concepts + software)</li>
                               </ul>
                            </li>
                            <li> Reliability: improve the reliability and extensibility of the stack with for example, MQ</li>
@@ -269,7 +269,7 @@
                               <ul>
                                  <li>in charge of the fraud decision engine design</li>
                                  <li> build the features and python workflow (SQLAlchemy, Rest API)</li>
-                                 <li><p class="small_margin">The AI fraud detection is used in production and is fully automated for the support team</li>
+                                 <li><p class="small_margin">The AI fraud detection is used in production and is fully automated for the support team, probably the first AI agent in the iliad group</li>
                                  <li><em>scikit-learn, python, SQLAlchemy, postgresql</em></li>
                               </ul>
                            <li>Online SAS san servers as <a href="http://emqtt.io/">IOT</a> (POC) for live snapshots and statistics data collection
@@ -314,24 +314,24 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li>Distributed chat system – main backend developer;</li>
-                           <li>Maintainer of the messaging stack (Erlang/<a href="https://en.wikipedia.org/wiki/Ejabberd">Ejabberd</a> +200K simultaneous users);</li>
-                           <li>Architect and code new requirements for the Meetic chat system;</li>
-                           <li>Add the xmpp protocol bosh extension to the backend;</li>
+                           <li>Distributed chat system – main backend developer</li>
+                           <li>Maintainer of the messaging stack (Erlang/<a href="https://en.wikipedia.org/wiki/Ejabberd">Ejabberd</a> <b>+200K simultaneous users</b>)</li>
+                           <li>Architect and code new requirements for the Meetic chat system</li>
+                           <li>Add the xmpp protocol bosh extension to the backend</li>
                            <li>
-                              Package, benchmark, experiment new ideas in erlang;
+                              Package, benchmark, R&D work in erlang:
                               <ul>
-                                 <li>develop a jabberd roster (contact) cloud storage (Riak);</li>
-                                 <li>develop a game framework as a cluster extension for Ejabberd to support simultaneously ten of thousands of human interactions stored in Riak;</li>
-                                 <li>a realtime 3D supertracker to monitor fraudulent chat messages traffic;</li>
+                                 <li>develop a riak-jabberd roster (contacts)</li>
+                                 <li>develop a game framework as a cluster extension for Ejabberd to support simultaneously ten of thousands of human interactions stored in Riak</li>
+                                 <li>a realtime 3D supertracker to monitor fraudulent chat messages</li>
                                  <li>benchmark RabbitMQ for messages logging;</li>
                               </ul>
                            <li>Side project: rewrite in Erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), my first project in Erlang <img src="logos/icons8-red-heart-48.png"  style="vertical-align: bottom" height="16">;
                            <li>
                               Side projects: open-source a real-time extension for erlang, allowing to schedule hard real-time messages, illustrated with two <a href="https://github.com/synrc/n2o"> n2o</a> projects:
                               <ul>
-                                 <li>an erlang multi players midi sequencer;</li>
-                                 <li>an interactive physics simulator.</li>
+                                 <li>an erlang multi players midi sequencer</li>
+                                 <li>an interactive physics simulator</li>
                               </ul>
                         </ul>
                         <p>Github</p>
@@ -361,16 +361,16 @@
                      <td class="skillbody">
                         <ul>
                            <li>
-                              <b>Embedded programming – Philips / Sagem mobiles</b>
+                              <b>Embedded programming – Philips / LG / Sagem mobiles</b>
                               <ul>
-                                 <li>based on the 18Crypt profile, architect of the NXP mobileTV CAS feature (conditional access); this multi sites project involved people from the Netherlands, India and Ireland (S3); </li>
-                                 <li>feature leader of Puma phone media manager, specify &amp; code the real-time requirements (apollo, js);</li>
-                                 <li>develop a new video player automaton in C for Sagem Mobile; </li>
+                                 <li>based on the 18Crypt profile, architect of the NXP mobileTV CAS feature (conditional access); this multi sites project involved people from the Netherlands, India and Ireland (S3)</li>
+                                 <li>feature leader of Puma phone media manager, specify &amp; code the real-time requirements (apollo, js)</li>
+                                 <li>develop a new video player automaton in C for Sagem Mobile</li>
                                  <li>
-                                    <div class="symbolic">build a host based verification system tool to ensure the middleware correctness, this tool uses logic programming techniques on a host to drive the tests on the embedded system;</div>
+                                    <div class="symbolic">build a host based verification system tool to ensure the middleware correctness, this tool uses logic programming techniques on a host to drive the tests on the embedded system</div>
                                  </li>
                                  <li>
-                                    <div class="symbolic">android devices: build a verification tool to test low level Android java hooks (thread, java fields / methods, state machines).</div>
+                                    <div class="symbolic">android devices: build a verification tool to test low level Android java hooks (thread, java fields / methods, state machines)</div>
                                  </li>
                               </ul>
                            </li>
@@ -379,10 +379,10 @@
                            <li>
                               <b>Embedded programming – IPTV <a href="https://en.wikipedia.org/wiki/Set-top_box">STB</a></b>
                               <ul>
-                                 <li>add multi-threading (<a href="http://en.wikipedia.org/wiki/Conditional_access">EMM/ECM</a> and Tuner) for the Philips STB DLI (Device Layer Interface); develop a porting layer for PVR services based on ST40 crypto security; </li>
-                                 <li>as a field engineer at BYTEL for the BBOX IPTV Product, investigates Technicolor stb middleware;</li>
+                                 <li>add multi-threading (<a href="http://en.wikipedia.org/wiki/Conditional_access">EMM/ECM</a> and Tuner) for the Philips STB DLI (Device Layer Interface); develop a porting layer for PVR services based on ST40 crypto security</li>
+                                 <li>as a field engineer at BYTEL for the BBOX IPTV Product, investigates Technicolor stb middleware</li>
                                  <li>
-                                    <div class="symbolic">rewrite in Erlang my massively parallel C++ coroutines simulator of biological processes (based on Cox Renewal Theory statistics model).
+                                    <div class="symbolic">rewrite in Erlang my massively parallel C++ coroutines simulator of biological processes (based on Cox Renewal Theory statistics model)
                                     </div>
                                  </li>
                               </ul>
@@ -392,22 +392,22 @@
                            <li>
                               <b>DVB-H Mobile TV – Orange</b>
                               <ul>
-                                 <li>participates to the development of next generation SIM &amp; KDA conditional access for Orange DVB-H mobiles;</li>
+                                 <li>participates to the development of next generation SIM &amp; KDA conditional access for Orange DVB-H mobiles</li>
                                  <!--a href="http://www.mobinaute.com/mobinaute/article.php?id=20051017171517"><img src="Renaud_Mariana_files/mobinaute2.jpeg" border="0" height="134" width="250"></a-->
                                  <li>
-                                    <div class="symbolic">semi-formal testing of the sim software using logic programming techniques;</div>
+                                    <div class="symbolic">semi-formal testing of the sim software using logic programming techniques</div>
                                  </li>
-                                 <li>customize <a href="http://videolan.org">VLC</a> to decode the rtp h264 ismacryp stream.</li>
+                                 <li>customize <a href="http://videolan.org">VLC</a> to decode the rtp h264 ismacryp stream</li>
                               </ul>
                            </li>
                            <li>
                               <b>Project leader (2 patents) – Viaccess mobile drm system</b>
                               <ul>
-                                 <li>architecture of a poc : server - DVB-H mobile - card , mp4 encryption schemes, licence packaging;
+                                 <li>architecture of a poc : server - DVB-H mobile - card , mp4 encryption schemes, licence packaging
                                  </li>
-                                 <li>participate to the development of some parts of the project : sim, oma v2 mp4 packager, symbian software;
+                                 <li>participate to the development of some parts of the project : sim, oma v2 mp4 packager, symbian software
                                  </li>
-                                 <li>manage the relationships with major smart card suppliers, video software vendors and third-party software companies.</li>
+                                 <li>manage the relationships with major smart card suppliers, video software vendors and third-party software companies</li>
                               </ul>
                            </li>
                         </ul>
@@ -436,20 +436,20 @@
                            <li>
                               <b>Project leader of <a href="http://www.inria.fr/">CP8</a> first javacard (3 patents including 2 US)</b>
                               <ul>
-                                 <li>did the coordination between INRIA, the mask and the CP8 R&amp;D teams. This project included a virtual machine simulator along other tools like secure loader or bytecode optimization programs and benchmarks suite software;</li>
-                                 <li>R&amp;D: wrote many javabytecode optimizations and javacard demos like a mastermind;</li>
-                                 <li>replace old proprietary VB tools with the http interface access (one patent) for smartcards;</li>
-                                 <li>technical consultancy for a French bank (Caisse d'Epargne, B0' application); </li>
+                                 <li>did the coordination between INRIA, the mask and the CP8 R&amp;D teams. This project included a virtual machine simulator along other tools like secure loader or bytecode optimization programs and benchmarks suite software</li>
+                                 <li>R&amp;D: wrote many javabytecode optimizations and javacard demos like <b>a mastermind solver</b> for benchmark</li>
+                                 <li>replace old proprietary VB tools with the http interface access (one patent) for smartcards</li>
+                                 <li>technical consultancy for a French bank (Caisse d'Epargne, B0' application)</li>
                               </ul>
                            </li>
                            <li>
                               <b>Secure protocols for e-commerce, Carte Bleue <img src="logos/carte_bleue.png"  style="vertical-align: bottom" height="16"></b>
                               <ul>
-                                 <li>port of the french banking protocol (B0') in javacard; </li>
-                                 <li>add multi-threading for the SimToolkit (3 patents filled); </li>
-                                 <li>proof of concept of a sms-based E-purse transaction system ( Proton smartcard and server); </li>
+                                 <li>port the french banking protocol (B0') for javacard</li>
+                                 <li>add <b>multi-threading programming for the SimToolkit</b> (3 patents filled)</li>
+                                 <li>proof of concept of a sms-based E-purse transaction system (Proton smartcard and server)</li>
                                  <li>
-                                    <div class="symbolic">open-source the prolog <a href="https://ludovicrousseau.blogspot.com/2010/06/pcsc-sample-in-prolog.html">PC/SC interface</a>, used to run semi formal tests in logic programming.</div>
+                                    <div class="symbolic">open-source the prolog <a href="https://ludovicrousseau.blogspot.com/2010/06/pcsc-sample-in-prolog.html">PC/SC interface</a>, used to run semi formal tests in logic programming</div>
                                  </li>
                               </ul>
                            </li>

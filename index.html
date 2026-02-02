@@ -36,45 +36,45 @@
          display: flex; 
          width: 300px
          }
-         .side {
-         flex: 1; 
-         padding: 5px;
-         }
-         .side-content-center {
-         display: flex; 
-         align-items: top;
-         }
+         .side {flex: 1;padding: 5px; }
+         .side-content-center {display: flex;align-items: top; }
+         .geeks_email {  margin-bottom: 0.2em; font-size: 16px; }
+         #Geeks_Welcome {width: 600px; border: 0px solid gray; }
+         #Geeks_summary h2, h3 { text-align: left; padding-left: 15px; padding-right: 15px }
+         #Geeks div h2{ text-align: left; color: gray; }
+         #Geeks {display: flex; }
+
+        #Geeks div {padding: 15px;flex: 1; }
+        #Geeks_summary h3 {color: gray}
       </style>
    </head>
    <body>
       <!--'"</title></head>-->
       <div id="main">
-         <div class="umenu">
-            <a class="home" href="https://github.com/bougueil/cv/raw/main/CV_mariana_backend.pdf">CV Renaud MARIANA - Backend Engineer (FR)</a>
+         <div id="Geeks_Welcome">
+             <div id="Geeks">
+                 <div>
+                     <img src="logos/avatar.png" alt="" style="width: 90%" />
+                     <p class="small_margin geeks_email"><a href="mailto:rmariana@gmail.com">rmariana@gmail.com</a></p>
+                     <p class="small_margin geeks_email">Tours, Loire Valley, France</p>
+                     <p class="small_margin geeks_email"><a href="https://www.linkedin.com/in/renaudmariana"><img src="logos/linkedin.png" height="20"></a>
+                     &ensp; <a href="https://github.com/bougueil"><img src="logos/github.svg" height="20"></a>
+                     &ensp; <a href="https://github.com/bougueil/cv/raw/main/CV_mariana_backend.pdf"><img src="logos/web.jpg" height="20"></a>
+                  </p>
+                 </div>
+                 <div>
+                   <h1>Renaud Mariana</h1>
+                   <h2>Backend Engineer • devops</h2>
+                 </div>
+             </div>
+             <div id="Geeks_summary">
+               <h2>Summary</h2>
+               <h3>
+            With over 15 years of experience in programming SaaS applications and storage systems, I'm keen to exploit my knowledge further in building, testing, operate concurrent systems.
+               </h3>
+          </div>
          </div>
-         <center>
-           <p><br></p>
-           <p><br></p>
 
-            <table width="70%" cellspacing="0" cellpadding="7" border="0">
-               <tbody>
-                  <tr>
-                     <td style="vertical-align: center; width: 33%;">
-			<img src="logos/avatar.png" alt="" style="width: 66%" />
-                        <p class="small_margin"><a href="mailto:rmariana@gmail.com">rmariana@gmail.com</a></p>
-                        <p class="small_margin">
-                        <a href="https://www.linkedin.com/in/renaudmariana"><img src="logos/linkedin.png" height="20"></a>
-                        &ensp; <a href="https://github.com/bougueil"><img src="logos/github.svg" height="20"></a>
-                        &ensp; <a href="https://github.com/bougueil/cv/raw/main/CV_mariana_backend.pdf"><img src="logos/web.jpg" height="20"></a></p>
-                     </td>
-                     <td style="vertical-align: top; width: 66%;"><b>
-                        With over 15 years of experience in programming SaaS applications and storage systems, I'm keen to exploit my knowledge further in building, testing, operate concurrent, energy efficient, scalable SaaS.</p>
-                        </b>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </center>
          <p><br></p>
          <h2>WORK EXPERIENCE</h2>
          <p></p>
@@ -103,13 +103,13 @@
                      <td class="skillbody">
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
-                           <li> Devops – enforce software robustness of the Phoenix Online Bookings
+                           <li> Devops – enforce software robustness of a phoenix online bookings SaaS
                               <ul>
                                  <li> Fix several critical bugs like this <a href="https://github.com/commanded/commanded/pull/600/commits" class="hover:text-zinc-700 underline">one</a> found in the commanded dependency</li>
                                  <li>fix aws instances size, wrong linux settings</li>
                                  <li>Solving some front bugs</li>
                               </ul></li>
-                           <li> <b>Bring Observability</b> :
+                           <li> <b>Bring observability</b> :
                               <ul>
                                  <li>add high resolution metrics (user metrics)</li>
                                  <li>add monitoring with Prometheus / PromQL</li>
@@ -151,7 +151,7 @@
                               <div class="side side-content-end">
                                  <div>
                                     <p class="small_margin"><b>Motorola Solutions</b></p>
-                                    <p class="small_margin"><i>Glostrup, Denmark</i> 🇩🇰</p>
+                                    <p class="small_margin"><i>Glostrup, Denmark - on-site</i> 🇩🇰</p>
                                     <p class="small_margin">21 - 22</p>
                                  </div>
                               </div>
@@ -162,12 +162,12 @@
                         <p class="font-semibold text-sm text-gray-700">Key Responsibilities</p>
                         <ul>
                            <li>Devops for a cloud based telecom product that connects <a href="https://en.wikipedia.org/wiki/Astro_(Motorola)">Land Mobile Radio systems</a> over the internet;</li>
-                           <li>Reliable software programming - kubernetes devops</li>
+                           <li><b>Reliable software programming - kubernetes devops</b></li>
                            <li>
-                              Software: write new kubernetes microservices (service-level requirement, ..), <b>associated tests</b> and deployed the services in all regions;
+                              Software: write new kubernetes microservices (service-level requirement, ..), associated tests and deployed the services in all regions;
                               <div>The role included tasks like writing / running the deployment pipelines, the CI/CD integration, templates, helm chart, monitoring, logging and observability</div>
                            </li>
-                           <li> SRE tasks : implement <b>a SLA measurement</b> microservice, join on-call rotation, run post-mortem, improve reliability</li>
+                           <li> SRE tasks : successfully implement <b>a SLA measurement</b> microservice, join on-call rotation, run post-mortem, improve reliability</li>
                         </ul>
                         <p>Environment</p>
                         <ul>
@@ -205,15 +205,15 @@
                            <li> Fleet Management SaaS – Technical interface for Stellantis</li>
                            <li> Architectural tasks:
                               <ul>
-                                 <li>modernizing the development and deployment process</li>
+                                 <li>modernizing the software development and deployment process</li>
                                  <li>backend code refactoring</li>
-                                 <li><b>reshape the fleet management into a more general Data Broker</b> (concepts + software)</li>
+                                 <li><b>reshape the fleet management API into a more general data broker API</b> (concepts + software)</li>
                               </ul>
                            </li>
-                           <li> Reliability: improve the reliability and extensibility of the stack with for example, MQ</li>
-                           <li> Big-data: Transform the business model of fleet trafic into a data broker: MapReduce pipelines, configurable customers queues, third-party export pipelines</li>
-                           <li> Tooling: add tools like Elastic Search and Elixir Dashboards</li>
-                           <li> Troubleshoot some issues </a></li>
+                           <li> Reliability: improve the stack reliability and extensibility with the help of a MQ</li>
+                           <li> Big-data: Transform a fleet trafic into a data broker business model: mapReduce pipelines, configurable customers queues, third-party export pipelines</li>
+                           <li> Tooling: add tools like Elastic Search and elixir dashboards</li>
+                           <li> Troubleshoot some issues</li>
                            <li> Performance: improve overall performance with some caching</li>
                            <li> Side project: develop and maintain a SaaS based on Phoenix / LiveView</li>
                         </ul>
@@ -248,9 +248,9 @@
                                  </div-->
                               <div class="side side-content-end">
                                  <div>
-                                    <p class="small_margin"><b>Scaleway | R&D</b><p>
-                                    <p class="small_margin"><i>Paris, France</i><p>
-                                    <p class="small_margin">13 - 17<p>
+                                    <p class="small_margin"><b>Scaleway | R&D</b></p>
+                                    <p class="small_margin"><i>Paris, France</i></p>
+                                    <p class="small_margin">13 - 17</p>
                                  </div>
                               </div>
                            </div>
@@ -262,16 +262,16 @@
                            <li>Distributed Cloud Storage – R&D – Devops </li>
                            <ul>
                               <li>from scaleway requirements, define the distributed and fault tolerant architecture</li>
-                              <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while his/her storage is currently in use</li>
+                              <li>Implement a flexible, lightweight protocol layer (<a href="https://nbd.sourceforge.io/" class="hover:text-zinc-700 underline">nbd</a>) in erlang (where it shines), allowing for example to move geographically a customer storage while in use</li>
                               <li><em> live release upgrade, app profiling, riak LRU cache, blocks dependency graph, users volume live relocation, riak node crash recovery, data flow performance analysis, commodity computing, webmachine rest api</em></li>
-                           </ul></li>
+                           </ul>
                            <li><b>AI fraud detection system</b>
                               <ul>
-                                 <li>in charge of the fraud decision engine design</li>
+                                 <li>in charge of the fraud decision engine design (server usage abuses)</li>
                                  <li> build the features and python workflow (SQLAlchemy, Rest API)</li>
-                                 <li><p class="small_margin">The AI fraud detection is used in production and is fully automated for the support team, probably the first AI agent in the iliad group</li>
+                                 <li><p class="small_margin">The AI fraud detection is used in production and is fully automated for the support team, probably the first AI agent deployed in the company</p></li>
                                  <li><em>scikit-learn, python, SQLAlchemy, postgresql</em></li>
-                              </ul>
+                              </ul></li>
                            <li>Online SAS san servers as <a href="http://emqtt.io/">IOT</a> (POC) for live snapshots and statistics data collection
                               <p class="small_margin"><em>topics: </em> qemu-nbd, iot</p>
                            </li>
@@ -324,15 +324,15 @@
                                  <li>develop a riak-jabberd roster (contacts)</li>
                                  <li>develop a game framework as a cluster extension for Ejabberd to support simultaneously ten of thousands of human interactions stored in Riak</li>
                                  <li>a realtime 3D supertracker to monitor fraudulent chat messages</li>
-                                 <li>benchmark RabbitMQ for messages logging;</li>
-                              </ul>
-                           <li>Side project: rewrite in Erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), my first project in Erlang <img src="logos/icons8-red-heart-48.png"  style="vertical-align: bottom" height="16">;
+                                 <li>benchmark RabbitMQ for messages logging</li>
+                              </ul></li>
+                           <li>Side project: rewrite in Erlang a C++ biological follicular/ovarian growth simulator I build (INRA, ATT/C++ coroutines), my first project in Erlang <img src="logos/icons8-red-heart-48.png"  style="vertical-align: bottom" height="16"></li>
                            <li>
                               Side projects: open-source a real-time extension for erlang, allowing to schedule hard real-time messages, illustrated with two <a href="https://github.com/synrc/n2o"> n2o</a> projects:
                               <ul>
                                  <li>an erlang multi players midi sequencer</li>
                                  <li>an interactive physics simulator</li>
-                              </ul>
+                              </ul></li>
                         </ul>
                         <p>Github</p>
                         <ul>
@@ -350,14 +350,15 @@
                                  </div-->
                               <div class="side side-content-end">
                                  <div>
-                                    <p class="small_margin"><b>Consultant</p>
-                                    <p class="small_margin">embedded software</b></p>
+                                    <p class="small_margin"><b>Consultant</b></p>
+                                    <p class="small_margin"><b>embedded software</b></p>
                                     <p class="small_margin"><i>Paris, France</i></p>
                                     <p class="small_margin">02 - 10</p>
                                  </div>
                               </div>
                            </div>
                         </div>
+                     </td>
                      <td class="skillbody">
                         <ul>
                            <li>
@@ -534,7 +535,7 @@
                   </tr>
                   <tr>
                      <td class="skillref"> LiveView based SaaS : </td>
-                     <td class="skillbody">Develop and maintain a SaaS based on Phoenix / LiveView / live SVG</a>.</td>
+                     <td class="skillbody">Develop and maintain a SaaS based on Phoenix / LiveView / live SVG.</td>
                   </tr>
                   <tr>
                      <td class="skillref"> Superls : </td>
